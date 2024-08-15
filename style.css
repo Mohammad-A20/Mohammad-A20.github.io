@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    padding: 5px; 
+    background-color: darkcyan;
+    border: white solid;
+    border-radius: 100px;
+    display: flex;   
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.alignment {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    width: 50%;
+    align-self: center;
+}
+
+.items {
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+.items:hover {
+    background-color: rgb(62, 59, 59);
+    opacity: 0.5;
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#me {
+    margin: 35px;
+    padding: 10px;
+    border: white solid;
+    border-radius: 10px;
+    background-color: darkred;
+}
+
+#accomplishments {
+    margin: 20px;
+    border: white solid;
+    border-radius: 10px;
+    background-color: darkslateblue;
+}
+
+#hobbies {
+    margin: 20px;
+    padding: 10px;
+    border: white solid;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+}
+
+#yellow {
+    color: yellow;
+    font-weight: bold;
+}
+
+#red {
+    color: red;
+    font-weight: bold;
+}
+
+#black {
+    color: black;
+    font-weight: bold;
+}
+
+#aqua {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+#kayla {
+    color:#D3D3FF;
+    font-weight: bold;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#poke {
+    display: flex;
+    width: 1500;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
